@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css'; 
 
+// I could have written this function  as  a component and place it in /compnents folder 
+// Since there is only one task i.e. fetching client details and displaying 
+// I directly wrote the function here 
+
 function App() {
     const [clients, setClients] = useState([]);
     const [loading, setLoading] = useState(true);
