@@ -4,7 +4,7 @@
 
 # Assignment Task:
 
-## Prepare a JSON from the client data by doing a select from the
+Prepare a JSON from the client data by doing a select from the
 table and then for that JSON prepare a UI - Grid or a form
 If a column is deleted in JSON it should be deleted in UI
 
