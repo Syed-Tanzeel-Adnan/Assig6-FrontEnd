@@ -2,7 +2,7 @@
 import React from 'react';
 
 const ClientList = () => {
-  // Hard-coded JSON data
+  
   const data = {
     clients: [
       {
