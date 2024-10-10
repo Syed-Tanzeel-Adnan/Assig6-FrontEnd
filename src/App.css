@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.client-table th,
+.client-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.client-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.client-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5em;
+  color: #4CAF50;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.5em;
+  color: red;
+}
