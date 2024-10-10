@@ -1,3 +1,5 @@
+// However I have implemented vanilla css as there was in this assigment. We can also use tailwind if needed
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
